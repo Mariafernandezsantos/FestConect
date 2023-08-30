@@ -1,0 +1,101 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-outline {
+  width: 75%;
+  margin-bottom: 1rem;
+  justify-content: center;
+  margin-left: 38%;
+
+}
+
+.form-control {
+  background-color: #fff;
+  border: 2px solid #DAFF48;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+  width: 50%;
+  font-size: 1rem;
+  color: #0c0c0b;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #DAFF48;
+}
+
+.form-check {
+  display: flex;
+
+}
+
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+.form-check-label {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #DAFF48;
+}
+
+a {
+  color: #9565bd;
+  text-decoration: none;
+}
+
+button {
+  background-color: #DAFF48;
+  border: 1px solid #f7faef;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0c0c0c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  color:#DAFF48;
+  margin-bottom: 2rem;
+}
+
+.btn-floating {
+
+  margin-top: 2rem;
+
+}
+
+.fab {
+  font-size: 1.25rem;
+}
+
+.icons {
+  display: flex;
+  justify-content:space-evenly;
+
+.iconify {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+
+  }
+}
+

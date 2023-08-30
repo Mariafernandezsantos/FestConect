@@ -1,0 +1,55 @@
+#logo {
+  display:ruby-base;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+#algaire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 3%;
+  border-radius: 2%;
+  border: 2px solid#DAFF48;
+}
+
+
+h1{
+  text-align: center;
+  color: #DAFF48;
+
+}
+
+h2{
+   text-align: center;
+  color: #DAFF48;
+  margin-bottom: 3%;
+  font-size: small;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #DAFF48;
+  margin-bottom: 3%;
+}
+
+.icons {
+  display: flex;
+  justify-content:space-evenly;
+
+.iconify {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+
+  }
+}
+
+
+fieldset{
+  color: #DAFF48;
+
+}
