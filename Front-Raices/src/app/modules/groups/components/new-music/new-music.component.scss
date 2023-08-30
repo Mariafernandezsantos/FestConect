@@ -1,17 +1,23 @@
-#logo {
-  width: 200px;
-  margin-bottom: 2%;
-  margin-left: 5%;
-  margin-top: 5%;
+.container-fluid{
+  background-color: black;
 }
 
+button{
+  color: #DAFF48;
+}
+
+
+.logo{
+ img{
+    width:100px;
+    height:84px;
+ }
+}
 
 h1{
   text-align: center;
   color: #DAFF48;
   margin-bottom: 3%;
-  margin-top: 1%;
-
 }
 
 
@@ -19,11 +25,27 @@ iframe {
   display: block;
   margin: 0 auto;
   border: 1px solid #DAFF48;
-  margin-bottom: 3%;
-}
-
-
-fieldset{
-  color: #DAFF48;
 
 }
+
+#like {
+  display: inline-block;
+  margin-left: 72%;
+  margin-bottom: 2rem;
+
+  }
+
+
+#redes {
+  display: block;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+
+
+
+.iconify {
+  font-size: 1.5rem;
+  margin: 10px;
+  }
+}
+

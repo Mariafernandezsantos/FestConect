@@ -1,34 +1,41 @@
-#logo {
-  display:ruby-base;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+.container-fluid{
+  background-color: black;
 }
 
+button{
+  color: #DAFF48;
+}
+
+.logo{
+ img{
+    width:100px;
+    height:84px;
+ }
+}
 
 #algaire {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  margin-bottom: 3%;
+  width: 40%;
+  margin-bottom: 1%;
   border-radius: 2%;
-  border: 2px solid#DAFF48;
+  border: 2px solid#daff48;
+  margin-top: 5rem;
 }
 
 
-h1{
+h1,h2,h5{
   text-align: center;
   color: #DAFF48;
+  margin: 10px;
 
 }
 
-h2{
-   text-align: center;
+a{
   color: #DAFF48;
-  margin-bottom: 3%;
-  font-size: small;
 }
+
 
 iframe {
   display: block;
@@ -39,12 +46,14 @@ iframe {
 
 .icons {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
+  margin: 10px;
+
 
 .iconify {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  margin: 15px;
   }
 }
 
@@ -53,3 +62,5 @@ fieldset{
   color: #DAFF48;
 
 }
+
+

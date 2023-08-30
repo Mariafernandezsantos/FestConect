@@ -5,6 +5,7 @@ import { RegisterGroupComponent } from './modules/groups/components/register-gro
 import { PlaylistGroupComponent } from './modules/groups/components/playlist-group/playlist-group.component';
 import { NewMusicComponent } from './modules/groups/components/new-music/new-music.component';
 import { VideoclipsComponent } from './modules/groups/components/videoclips/videoclips.component';
+import { RegisterOrganizationComponent } from './modules/organizations/components/register-organization/register-organization.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'playlist', component: PlaylistGroupComponent },
   { path: 'new', component: NewMusicComponent },
   { path: 'videoclips', component: VideoclipsComponent },
+  { path: 'register-org', component: RegisterOrganizationComponent },
 ];
 
 @NgModule({
