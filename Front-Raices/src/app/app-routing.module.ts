@@ -6,6 +6,7 @@ import { PlaylistGroupComponent } from './modules/groups/components/playlist-gro
 import { NewMusicComponent } from './modules/groups/components/new-music/new-music.component';
 import { VideoclipsComponent } from './modules/groups/components/videoclips/videoclips.component';
 import { RegisterOrganizationComponent } from './modules/organizations/components/register-organization/register-organization.component';
+import { HeaderComponent } from './modules/groups/components/new-music/header/header.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },

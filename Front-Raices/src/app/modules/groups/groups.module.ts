@@ -8,6 +8,8 @@ import { BiografyGroupComponent } from './components/biografy-group/biografy-gro
 import { RrssGroupComponent } from './components/rrss-group/rrss-group.component';
 import { NewMusicComponent } from './components/new-music/new-music.component';
 import { VideoclipsComponent } from './components/videoclips/videoclips.component';
+import { HeaderComponent } from './components/new-music/header/header.component';
+import { BodyComponent } from './components/new-music/body/body.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { VideoclipsComponent } from './components/videoclips/videoclips.componen
     BiografyGroupComponent,
     RrssGroupComponent,
     NewMusicComponent,
-    VideoclipsComponent
+    VideoclipsComponent,
+    HeaderComponent,
+    BodyComponent
   ],
   imports: [
     CommonModule,
@@ -25,3 +29,5 @@ import { VideoclipsComponent } from './components/videoclips/videoclips.componen
   ]
 })
 export class GroupsModule { }
+
+
