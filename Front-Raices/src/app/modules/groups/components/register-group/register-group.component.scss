@@ -16,18 +16,16 @@ form {
   width: 75%;
   margin-bottom: 1rem;
   justify-content: center;
-  margin-left: 38%;
-
 }
+
 
 .form-control {
   background-color: #fff;
   border: 2px solid #c3ff38;
   border-radius: 0.25rem;
   height: 2.5rem;
-  width: 50%;
-  font-size: 1rem;
-  color: #0c0c0b;
+  width: 20rem;
+  justify-content: center;
 }
 
 .form-label {
@@ -56,12 +54,4 @@ button {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-}
-
-
-fieldset {
-  width: 1300px;
-  margin-right: 10%;
-  color: #0c0c0c;
-  border:1px solid;
 }
