@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RrssGroupComponent } from './rrss-group.component';
+import { FavGroupComponent } from './fav-group.component';
 
-describe('RrssGroupComponent', () => {
-  let component: RrssGroupComponent;
-  let fixture: ComponentFixture<RrssGroupComponent>;
+describe('FavGroupComponent', () => {
+  let component: FavGroupComponent;
+  let fixture: ComponentFixture<FavGroupComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [RrssGroupComponent]
+      declarations: [FavGroupComponent]
     });
-    fixture = TestBed.createComponent(RrssGroupComponent);
+    fixture = TestBed.createComponent(FavGroupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
